@@ -10,9 +10,15 @@
 
 // echo 'Bravo';
 
-for ($i = 0; $i < 10; $i++)
+$notes = [10, 15, 16];
+$eleve = [
+    'cm2' => 'Jean',
+    'cm1' => 'Marc'
+];
+
+foreach ($eleve as $classe => $eleve)
 {
-    echo "- $i \n";
+    echo "$eleve est dans classe $classe \n";
 }
 
 ?>
